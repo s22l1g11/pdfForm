@@ -7,7 +7,7 @@ Usage:
 =======
 <ul>
   <li>Either download the repo and install the files on your own webserver,</li>
-  <li>or use my live demo version: <a href="dev.zimmerpforte.de/pdfForm">pdfForm-Live</a></li>
+  <li>or use my live demo version: <a href="http://dev.zimmerpforte.de/pdfForm">pdfForm-Live</a></li>
 </ul>
 Information:
 =======
