@@ -13,7 +13,14 @@ class Config
 		$file = implode("",file('tmp/main.html'));
 		$file = str_replace('<@content@>',$this->content,$file);
 		$file = str_replace('<@brand@>',$brand,$file);
+		$file = str_replace('<@seite@>',$this->getUrl(),$file);
 		return $file;
+	}
+	
+	
+	protected function getUrl()
+	{
+		return 'http://dev.zimmerpforte.de/pdfForm';
 	}
 }
 ?>

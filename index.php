@@ -17,9 +17,9 @@ if ($id == "form" || $id == "")
 {
 	$config_class->content = $form_class->displayForm();
 }
-else if ($id == "final")
+else if ($id == "create")
 {
-	$config_class->content = $form_class->evaluateForm();
+	require_once($this->getUrl().'/mpdf/examples/create.php');
 }
 //calling the replace function to display the website
 echo $config_class->replace();
